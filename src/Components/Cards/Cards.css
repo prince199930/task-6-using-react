@@ -1,0 +1,60 @@
+/* main-card CSS */
+/* .main-card{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    column-gap: 4%;
+    row-gap: 4%;
+    background-color: #161e20;
+    color: #dad942;
+} */
+.main-card{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    column-gap: 4%;
+    row-gap: 4%;
+    background-color: #f3f2ef;
+    color: black;
+}
+
+/* inside-card CSS */
+.inside-card{
+    height: 579px;
+    border: 3px solid black;
+    padding: 24px;
+    width: 271px;
+    margin-left:62px;
+    margin-top: 69px;
+    margin-bottom: 62px;
+    border-radius: 25px;
+    box-shadow: 0 12px 14px #ccc;
+    cursor: pointer;
+}
+
+.inside-card:hover{
+    transform: translateY(20px);
+    margin-bottom: 4%;
+    cursor: pointer;
+    
+}
+
+/* image CSS */
+div img{
+    width:143px;
+    margin-left:88px;
+    height:244px
+}
+
+/* name CSS */
+.name{
+    font-size: 16px;
+}
+
+/* sayins CSS */
+.sayins{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

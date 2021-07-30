@@ -1,0 +1,1 @@
+export const cardProductsAPI = "https://api.sampleapis.com/futurama/characters"
